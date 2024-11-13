@@ -1,0 +1,20 @@
+name: PoohLobbyPlugin
+version: 1.0.0
+main: de.poohscord.poohlobby.PoohLobbyPlugin
+description: PoohLobby
+author: BrainPointerException
+api-version: 1.21.1
+depend:
+  - CloudNet-Bridge
+
+commands:
+    serversendregion:
+        description: Set a server send region
+        usage: /serversendregion <regionName> <serverName,pos1,pos2>
+        aliases:
+          - ssr
+    protectedregion:
+        description: Protect a region
+        usage: /protectedregion <regionName> <pos1,pos2,spawn>
+        aliases:
+          - pr
